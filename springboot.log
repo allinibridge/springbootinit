@@ -1,0 +1,7 @@
+2019-07-30 15:34:55.068  INFO 7536 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-30 15:34:55.071  INFO 7536 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-30 15:34:55.106  INFO 7536 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2019-07-30 15:34:56.562  INFO 7536 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-30 15:34:56.890  WARN 7536 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-07-30 15:34:57.668  WARN 7536 --- [main] c.m.s.SpringbootinitApplication          : 你好呀！！
+2019-07-30 15:34:57.709  INFO 7536 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

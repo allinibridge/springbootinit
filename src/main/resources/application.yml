@@ -1,0 +1,19 @@
+
+server:
+  port: 80
+
+  #项目配置访问路径
+  #servlet:
+    #context-path: /website
+
+#我们能配置的属性都是来源于这个功能的properties类
+spring:
+  http:
+    encoding:
+      enabled: true
+      charset: utf-8
+      force: true
+#开发springboot的debug模式
+#debug: true
+
+
