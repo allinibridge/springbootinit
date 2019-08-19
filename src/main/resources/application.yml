@@ -1,6 +1,6 @@
 
-server:
-  port: 80
+#server:
+ # port: 80
 
   #项目配置访问路径
   #servlet:

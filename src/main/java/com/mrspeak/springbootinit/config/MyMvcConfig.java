@@ -2,6 +2,9 @@ package com.mrspeak.springbootinit.config;
 
 import com.mrspeak.springbootinit.component.LoginHandlerInterceptor;
 import com.mrspeak.springbootinit.component.MyLocalResolver;
+import org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory;
+import org.springframework.boot.web.server.WebServerFactory;
+import org.springframework.boot.web.server.WebServerFactoryCustomizer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.LocaleResolver;
@@ -21,6 +24,9 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupp
  */
 @Configuration
 public class MyMvcConfig  extends WebMvcConfigurationSupport {
+
+
+
     @Override
     protected void addViewControllers(ViewControllerRegistry registry) {
        registry.addViewController("/nihao").setViewName("add");
