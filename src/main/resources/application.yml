@@ -13,7 +13,32 @@ spring:
       enabled: true
       charset: utf-8
       force: true
+  datasource:
+    username: mrspeak
+    password: Mrspeak@2019
+    url: jdbc:mysql://49.234.110.149:3306/mrspeak
+    driver-class-name: com.mysql.jdbc.Driver
+    filters: stat,wall,log4j,config
+    max-active: 100
+    initial-size: 1
+    max-wait: 60000
+    min-idle: 1
+    time-between-eviction-runs-millis: 60000
+    min-evictable-idle-time-millis: 300000
+    validation-query: select 'x'
+    test-while-idle: true
+    test-on-borrow: false
+    test-on-return: false
+    pool-prepared-statements: true
+    max-open-prepared-statements: 50
+    max-pool-prepared-statement-per-connection-size: 20
+    type: com.alibaba.druid.pool.DruidDataSource
+  activemq:
+    broker-url:
 #开发springboot的debug模式
 #debug: true
+
+
+
 
 
